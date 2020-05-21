@@ -1,0 +1,153 @@
+html, body{
+	text-align:center;
+	background-color:#747474;
+	color:#272727;
+	width:100%;
+	margin:0;
+	scroll-behavior: smooth;
+	font-size:20px;
+	font-family: Verdana, Arial, serif;
+}
+a{
+	text-decoration:none;
+	color:#272727;
+}
+a:visited
+ul{
+	list-style:none;
+}
+li{
+	list-style:none;
+	color:#272727;
+}
+/*     END OF GLOBAL SECTION*/
+
+#navbar{}
+.nav {
+	position: fixed;
+	display: flex;
+	justify-content: flex-end;
+    top: 0;
+	left: 0;
+	width: 100%;
+	background-color:#747474;
+	box-shadow: 0 4px 0 rgba(0, 0, 0, 0.6);
+	z-index: 2;
+	justify-content: center;
+}
+.nav-buttons{
+	display: flex;
+	margin:0;
+	
+}
+.nav-buttons a{
+	display: block;
+	font-size: 1.5rem;
+	padding:1rem;
+	
+}
+
+.nav-buttons a:hover{
+	background-color:white;
+	
+}
+
+/*	END OF NAV SECTION*/
+#main-page{
+	display:flex;
+	flex-direction:column;
+}
+/* END OF MAIN PAGE SETUP*/
+#welcome-section{}
+.welcome-section{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	box-shadow: 0 4px 0 rgba(0, 0, 0, 0.6);
+	background-color:#ff652f;
+}
+.welcome-section h1{
+	font-weight:bold;
+	font-size:2.5rem;
+}
+.welcome-section a:hover{
+	background-color:white;
+	
+}
+/* END OF WELCOME SECTION*/
+#projects{}
+.projects{
+	height:100vh;
+	width:100%;
+	background-color:#14A76C;
+	box-shadow: 0 4px 0 rgba(0, 0, 0, 0.6);
+	display:flex;
+	flex-direction:column;
+}
+.projects a{
+	font-size:1.2rem;
+	font-weight:bold;
+
+}
+.projects a:hover{
+	background-color:white;
+	
+}
+
+.project-wrapper1{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	max-width:100%;
+	height:50vh;
+	margin:0 auto;
+	padding:0;
+
+	
+}
+.project-wrapper2{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	max-width:100%;
+	height:50vh;
+	margin:0 auto;
+	padding:0;
+
+	
+}
+.project-tile{
+	margin:5vh 20vh;
+	height:350px;
+	width:300px;
+
+	
+}
+.project-tile-img{
+	width:100%;
+	height:85%;
+	margin:0;
+	object-fit: fill;
+}
+.project-tile-text{
+	height:15%;
+	width:100%;
+	margin:0px;
+
+}
+
+/* END OF PROJECTS SECTION*/
+#contact{}
+.profile-link{
+	height:50vh;
+	width:100%;
+	background-color:#FFE400;
+	padding-top:10vh;
+	box-shadow: 0 4px 0 rgba(0, 0, 0, 0.6);
+}
+.profile-link a:hover{
+	background-color:white;
+	
+}
